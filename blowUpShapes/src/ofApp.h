@@ -20,14 +20,6 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
     
     
-	void setupArduino(const int & version);
-	void updateArduino();
-    
-	ofArduino	ard;
-	bool		bSetupArduino;			// flag variable for setting up arduino once
-
-    
-
     float countA, countB, countC;
 		
 };
